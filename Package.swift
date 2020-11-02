@@ -11,7 +11,7 @@ let package = Package(
     targets:[
         .target(name: "MMWormhole",
                 path: "Source",
-                publicHeadersPath: "Source/*.h")
+                publicHeadersPath: ".")
     ],
     swiftLanguageVersions: [.v5]
 )
